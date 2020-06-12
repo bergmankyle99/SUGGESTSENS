@@ -1,0 +1,45 @@
+{
+  "games": [
+    {
+      "name": "CounterStrike",
+      "id": "cs",
+      "image": "csgo"
+    },
+    {
+      "name": "Fortnite",
+      "id": "fn",
+      "image": "fortnite"
+    },
+    {
+      "name": "Rainbow6",
+      "id": "r6",
+      "image": "rainbow6"
+    },
+    {
+      "name": "battlefield5",
+      "id": "bfv",
+      "image": "bfv"
+    },
+    {
+      "name": "apex",
+      "id": "apex",
+      "image": "apex"
+    },
+    {
+      "name": "b04",
+      "id": "b04",
+      "image": "b04"
+    },
+    {
+      "name": "Overwatch",
+      "id": "overwatch",
+      "image": "overwatch"
+    },
+    {
+      "name": "Destiny2",
+      "id": "d2",
+      "image": "d2"
+    }
+  ]
+}
+

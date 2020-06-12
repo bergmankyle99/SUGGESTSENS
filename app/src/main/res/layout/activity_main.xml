@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d3cfcf"
+    tools:context=".MainActivity"
+    android:id="@+id/main">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/gametogamefrag"
+            android:layout_width="228dp"
+            android:layout_height="152dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="23dp"
+            android:onClick="GametoGameClick"
+            android:text="GAME TO GAME SENSITIVITY CONVERTER" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="241dp"
+            android:layout_height="152dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="SUGGEST SENS"
+            android:textSize="50dp" />
+
+        <Button
+            android:id="@+id/dpisensfrag"
+            android:layout_width="228dp"
+            android:layout_height="152dp"
+            android:layout_centerInParent="true"
+            android:onClick="DPISensClick"
+            android:text="DPI/SENSITIVITY CONVERTER" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
